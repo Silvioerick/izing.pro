@@ -70,7 +70,7 @@ const greeting = (() => {
   if (hours > 17 && hours <= 23) {
     return "Boa Noite!";
   }
-  return "Olá!";
+  return "Boa Madrugada!";
 })();
 
 export const pupa = function pupa(
@@ -89,6 +89,22 @@ export const pupa = function pupa(
       `Expected an \`object\` or \`Array\` in the second argument, got \`${typeof data}\``
     );
   }
+
+  const greeting = (() => {
+    const hours = getHours(new Date());
+    console.log("greeting", hours);
+    if (hours >= 6 && hours <= 11) {
+      return "Bom dia!";
+    }
+    if (hours > 11 && hours <= 17) {
+      return "Boa Tarde!";
+    }
+    if (hours > 17 && hours <= 23) {
+      return "Boa Noite!";
+    }
+    return "Boa Madrugada!";
+  })();
+
 
   data = { ...data, greeting };
 
