@@ -2,9 +2,9 @@ import axios from 'axios'
 import Router from '../router/index'
 
 import loading from 'src/utils/loading'
-// import { Notify } from 'quasar'
+import { Notify } from 'quasar'
 
-// import backendErrors from './erros'
+import backendErrors from './erros'
 import { RefreshToken } from './login'
 
 const service = axios.create({
@@ -12,24 +12,24 @@ const service = axios.create({
   timeout: 20000
 })
 
-// const handlerError = err => {
-//  const errorMsg = err?.response?.data?.error
-//  let error = 'Ocorreu um erro não identificado.'
-//  if (errorMsg) {
-//    if (backendErrors[errorMsg]) {
-//      error = backendErrors[errorMsg]
-//    } else {
-//      error = err.response.data.error
-//    }
-//  }
-//  Notify.create({
-//    position: 'top',
-//    type: 'negative',
-//    html: true,
-//    progress: true,
-//    message: `Ops... <br>${JSON.stringify(error)}`
-//  })
-// }
+const handlerError = err => {
+  const errorMsg = err?.response?.data?.error
+  let error = 'Ocorreu um erro não identificado.'
+  if (errorMsg) {
+    if (backendErrors[errorMsg]) {
+      error = backendErrors[errorMsg]
+    } else {
+      error = err.response.data.error
+    }
+  }
+  Notify.create({
+    position: 'top',
+    type: 'negative',
+    html: true,
+    progress: true,
+    message: `${JSON.stringify(error)}`
+  })
+}
 
 // const tokenInicial = url => {
 //   const paths = [
@@ -99,7 +99,7 @@ service.interceptors.response.use(
       localStorage.removeItem('profile')
       localStorage.removeItem('userId')
       if (error.config.url.indexOf('logout') === -1) {
-        // handlerError(error)
+        handlerError(error)
         setTimeout(() => {
           Router.push({
             name: 'login'
@@ -107,16 +107,16 @@ service.interceptors.response.use(
         }, 2000)
       }
     } else if (error.response && error.response.status === 500) {
-      // handlerError(error)
-    // } else if (error.message.indexOf('timeout') > -1) {
-    //  Notify.create({
-    //    message: 'Esperamos muito tempo por uma resposta. Será que está tudo "Ok" com a internet?',
-    //    position: 'top',
-    //    type: 'negative',
-    //    progress: true,
-    //    html: true
-    //  })
-    // } else {
+      handlerError(error)
+    } else if (error.message.indexOf('timeout') > -1) {
+      Notify.create({
+        message: 'Processando informações de estatisticas',
+        position: 'top',
+        type: 'positive',
+        progress: true,
+        html: true
+      })
+    } else {
       // handlerError(error)
     }
     return Promise.reject(error.response)
