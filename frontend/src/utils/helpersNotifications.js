@@ -8,21 +8,20 @@ export const notificarErro = (msg, error = null) => {
   }
   const findErro = Errors.find(e => e.error == erro)
   let message = ''
+
   if (error && findErro.error) {
     message = `
-    <p class="text-bold">
-    <br>
-    <span class="text-bold">${findErro.description}.</span>
-    </p>
-    <p>${findErro.detail}</p>
+      <p class="text-bold">
+      <span class="text-bold">${findErro.description}.</span>
+      </p>
+      <p>${findErro.detail}</p>
     `
   } else {
     message = `
     <p class="text-bold">
-    <br>
-    <span class="text-bold">${msg}</span>
+      <span class="text-bold">${msg}</span>
     </p>
-
+    <p>Detail: ${erro}</p>
     `
   }
 
