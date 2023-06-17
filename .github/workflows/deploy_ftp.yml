@@ -1,6 +1,6 @@
 name: Deploy
 
-on: [push] # evento que quero disparar o Actions, mas pode trocar para o desejado
+on: [workflow_dispatch] # evento que quero disparar o Actions, mas pode trocar para o desejado
 
 jobs:
   deploy:
@@ -24,14 +24,9 @@ jobs:
     - name: Compress Build Frontend
       # workflow para compactar o código buildado e tudo que for necessário para o app funcionar
       run: tar -zcvf frontend.tar.gz frontend/     
-#    - name: Upload files Frontend via FTP # workflow para upload se desejar enviar para um servidor FTP
-#      run: |
-#        curl -T frontend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/
-    - name: Upload de artefato Frontend # workflow para deixar o compactado no próprio Github. MAIS INDICADO! Depois faça download pelo instalador utilizando o GITHUB_TOKEN
-      uses: actions/upload-artifact@v3
-      with:
-        name: Frontend compactado
-        path: frontend.tar.gz       
+    - name: Upload files Frontend via FTP # workflow para upload se desejar enviar para um servidor FTP
+      run: |
+        curl -T frontend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/
     - name: Construção do Backend # workflow para construir o backend
       run: |
         cd backend
@@ -40,11 +35,6 @@ jobs:
         CI=false npm run build
     - name: Compress Build Backend # workflow para compactar o código buildado
       run: tar -zcvf backend.tar.gz --exclude=backend/src backend/
-#    - name: Upload files Backend via FTP # workflow para upload se desejar enviar para um servidor FTP
-#      run: |
-#        curl -T backend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/             
-    - name: Upload de artefato Backend # workflow para deixar o compactado no próprio Github. MAIS INDICADO! Depois faça download pelo instalador utilizando o GITHUB_TOKEN
-      uses: actions/upload-artifact@v3
-      with:
-        name: Backend compactado
-        path: backend.tar.gz        
+    - name: Upload files Backend via FTP # workflow para upload se desejar enviar para um servidor FTP
+      run: |
+        curl -T backend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/             
