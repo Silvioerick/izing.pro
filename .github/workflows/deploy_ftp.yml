@@ -1,0 +1,50 @@
+name: Deploy
+
+on: [push] # evento que quero disparar o Actions, mas pode trocar para o desejado
+
+jobs:
+  deploy:
+    # executa a rotina somente se for o repositório definido, mas pode trocar para branch ou o que achar melhor
+    if: github.repository == 'Silvioerick/izing.pro'
+    runs-on: ubuntu-22.04 # ou ubuntu-latest ou a distribuição desejada, desde que correta e necessária
+    environment: production # importante! o Github aplica presets baseado nisso!
+    steps:
+    - name: "Checkout" 
+      uses: actions/checkout@v3 # aplico o workflow para "pegar o código"
+    - name: "Use NodeJS"          
+      uses: actions/setup-node@v3 # workflow para NodeJS e defino a versão
+      with:
+        node-version: '14.21.3' # verificar se essa versão é a necessária
+    - name: Construção do Frontend # Crio workflow para buildar o frontend
+      run: |
+        npm install -g @quasar/cli
+        cd frontend
+        npm install
+        quasar build -P -m pwa
+    - name: Compress Build Frontend
+      # workflow para compactar o código buildado e tudo que for necessário para o app funcionar
+      run: tar -zcvf frontend.tar.gz frontend/     
+#    - name: Upload files Frontend via FTP # workflow para upload se desejar enviar para um servidor FTP
+#      run: |
+#        curl -T frontend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/
+    - name: Upload de artefato Frontend # workflow para deixar o compactado no próprio Github. MAIS INDICADO! Depois faça download pelo instalador utilizando o GITHUB_TOKEN
+      uses: actions/upload-artifact@v3
+      with:
+        name: Frontend compactado
+        path: frontend.tar.gz       
+    - name: Construção do Backend # workflow para construir o backend
+      run: |
+        cd backend
+        npm install
+        export NODE_OPTIONS="--max_old_space_size=4096"
+        CI=false npm run build
+    - name: Compress Build Backend # workflow para compactar o código buildado
+      run: tar -zcvf backend.tar.gz --exclude=backend/src backend/
+#    - name: Upload files Backend via FTP # workflow para upload se desejar enviar para um servidor FTP
+#      run: |
+#        curl -T backend.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/             
+    - name: Upload de artefato Backend # workflow para deixar o compactado no próprio Github. MAIS INDICADO! Depois faça download pelo instalador utilizando o GITHUB_TOKEN
+      uses: actions/upload-artifact@v3
+      with:
+        name: Backend compactado
+        path: backend.tar.gz        
