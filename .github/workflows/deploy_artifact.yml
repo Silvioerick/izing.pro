@@ -1,6 +1,6 @@
 name: Deploy_Artifact
 
-on: [workflow_dispatch] # evento que quero disparar o Actions, mas pode trocar para o desejado
+on: [push] # evento que quero disparar o Actions, mas pode trocar para o desejado
 
 jobs:
   deploy_artifact:
