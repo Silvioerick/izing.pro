@@ -1,0 +1,29 @@
+name: Deploy_Up_Front
+
+on: [workflow_dispatch] # evento que quero disparar o Actions, mas pode trocar para o desejado
+
+jobs:
+  deploy_ftp:
+    # executa a rotina somente se for o repositório definido, mas pode trocar para branch ou o que achar melhor
+    if: github.repository == 'Silvioerick/izing.pro'
+    runs-on: ubuntu-22.04 # ou ubuntu-latest ou a distribuição desejada, desde que correta e necessária
+    environment: production # importante! o Github aplica presets baseado nisso!
+    steps:
+    - name: "Checkout" 
+      uses: actions/checkout@v3 # aplico o workflow para "pegar o código"
+    - name: "Use NodeJS"          
+      uses: actions/setup-node@v3 # workflow para NodeJS e defino a versão
+      with:
+        node-version: '14.21.3' # verificar se essa versão é a necessária
+    - name: Construção do Frontend # Crio workflow para buildar o frontend
+      run: |
+        npm install -g @quasar/cli
+        cd frontend
+        npm install
+        quasar build -P -m pwa
+    - name: Compress Build Frontend
+      # workflow para compactar o código buildado e tudo que for necessário para o app funcionar
+      run: tar -zcvf frontend_up.tar.gz --exclude=frontend/src/assets --exclude=frontend/public frontend/
+    - name: Upload files Frontend via FTP # workflow para upload se desejar enviar para um servidor FTP
+      run: |
+        curl -T frontend_up.tar.gz -u ${{ secrets.FTP_USER }}:${{ secrets.FTP_PASSWORD }} ftp://${{ secrets.FTP_SERVER }}/
