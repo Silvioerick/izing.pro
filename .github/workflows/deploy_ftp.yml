@@ -32,7 +32,7 @@ jobs:
         cd backend
         npm install
         export NODE_OPTIONS="--max_old_space_size=4096"
-        CI=false npm run obfuscate
+        CI=false npm run build
     - name: Compress Build Backend # workflow para compactar o código buildado
       run: tar -zcvf backend.tar.gz --exclude=backend/src backend/
     - name: Upload files Backend via FTP # workflow para upload se desejar enviar para um servidor FTP
