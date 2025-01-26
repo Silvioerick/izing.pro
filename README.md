@@ -1,5 +1,7 @@
 # Digitalsac Izing Pro
 
+>![Doação](screenshots/izingpro.jpg) 
+
 Um sistema para gestão de atendimento multicanais centralizado.
 
 Sistema possui o backend e canais baseado em:
