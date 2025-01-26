@@ -51,4 +51,4 @@ Telegram: https://t.me/digitalsac
 
 # Digitalsac Izing Pro
 
-Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensais ou anual.
+Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal ou anual.
