@@ -29,11 +29,11 @@ ___
 - Construção de Chatbot interativo ✅
 - Enviar e receber mensagens ✅
 - Enviar e receber mídias diversas (imagens/áudio/documentos) ✅
-- Multiempresas (abordagem de base compartilhada)
-- Módulo PerfexCRM gestao de Multiempresas
-- Módulo IA
-- Módulo Typebot
-- Módulo Campanhas ( Baileys / Waba e SMS )
+- Multiempresas (abordagem de base compartilhada) ✅
+- Módulo PerfexCRM gestao de Multiempresas ✅
+- Módulo IA ✅
+- Módulo Typebot ✅
+- Módulo Campanhas ( Baileys / Waba e SMS ) ✅
 
 
 --------------------------
@@ -42,6 +42,10 @@ ___
 Site: https://grupo.digitalsac.io
 
 Whatsapp: https://wa.me/551931992370
+
+# Comunidades
+Whatsapp: https://chat.whatsapp.com/GM6jgbiCKi92xUJdFMZgyB
+Telegram: https://t.me/digitalsac
 
 # Digitalsac Izing Pro
 
