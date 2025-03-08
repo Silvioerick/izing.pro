@@ -41,7 +41,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 
 # Planos
 
-|:------------------------------------------------|:----:|:----------:|:----------:|:-----------:|
+
 | Funcionalidade                                  | Free |   Basic    |    Plus    |   Premium   |
 |:------------------------------------------------|:----:|:----------:|:----------:|:-----------:|
 | Instalação em Servidores                        |  1️⃣  |   5️⃣0️⃣    |   5️⃣0️⃣    |    5️⃣0️⃣    |
@@ -61,7 +61,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Chat Interno                                    |  ❌  |    ❌     |     ✅     |     ✅     |
 | Campanhas WABA                                  |  ❌  |    ❌     |     ❌     |     ✅     |
 | ConnectionHub                                   |  ❌  |    ❌     |     ❌     |     ✅     |
-|:------------------------------------------------|:----:|:----------:|:----------:|:-----------:|
+
 
 ## Valores e Condições de Pagamento
 
@@ -90,14 +90,14 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 - Mínimo de 3 tenants, o cliente pode ter quantos quiser
 
 #### Exemplos de Cobrança Mensal:
-|:-----------------:|:------------------------:|:------------:|
+
 | Número de Tenants | Cálculo                  | Total Mensal |
 |:------------------|:------------------------:|:------------:|
 | 3 tenants         | R$ 199 + (3 × R$ 35)     | R$ 304       |
 | 5 tenants         | R$ 199 + (5 × R$ 35)     | R$ 374       |
 | 10 tenants        | R$ 199 + (10 × R$ 35)    | R$ 549       |
 | 50 tenants        | R$ 199 + (50 × R$ 35)    | R$ 1.949     |
-|:-----------------:|:------------------------:|:------------:|
+
 
 🔹 **Vantagem**: Custo previsível, ideal para quem quer escalar aos poucos.
 
@@ -107,14 +107,14 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 - **Mínimo de 5 tenants para contratação** (R$ 325/mês mínimo)
 
 #### Exemplos de Cobrança Mensal:
-|:--------------------:|:----------------:|:------------:|
+
 | Número de Tenants    | Cálculo          | Total Mensal |
 |:--------------------:|:----------------:|:------------:|
 | 5 tenants (mínimo)   | 5 × R$ 65        | R$ 325       |
 | 10 tenants           | 10 × R$ 65       | R$ 650       |
 | 20 tenants           | 20 × R$ 65       | R$ 1.300     |
 | 50 tenants           | 50 × R$ 65       | R$ 3.250     |
-|:--------------------:|:----------------:|:------------:|
+
 
 🔹 **Vantagem**: Sem taxa fixa, mas exige um mínimo para viabilidade financeira.
 
@@ -123,14 +123,14 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 Oferecemos planos Whitelabel completos com servidores hospedados no Brasil, sem custos adicionais de localização.
 
 ### Tabela de Planos
-|:--------------:|:--------:|:------------:|:-------------:|
+
 | Plano          | Conexões | Preço Mensal | Setup (único) |
 |:--------------:|:--------:|:------------:|:-------------:|
 | Starter        | 25       | R$ 749       | R$ 2.000      |
 | Professional   | 50       | R$ 949       | R$ 2.000      |
 | Business       | 100      | R$ 1.299     | R$ 2.000      |
 | Enterprise     | 200      | R$ 2.499     | R$ 2.000      |
-|:--------------:|:--------:|:------------:|:-------------:|
+
 
 ### Diferenciais Inclusos em Todos os Planos
 
