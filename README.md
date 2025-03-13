@@ -76,7 +76,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Painel Revenda NotificameHub* c/ 10 canais Inclusos / mês  |  ❌  |  R$ 500,00  |  R$ 500,00 |   500,00   |
 | *Canal Adicional NotificameHub Revenda / mês    |  ❌  |  R$ 30,00  |  R$ 30,00 |   30,00   |
 
-TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB
+**TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB**
 - Whatsapp Oficial tem uma taxa de ativação de R$ 150,00
 - Mercado livre, Youtube, OLX, Numero Virtual, Linkedin, Magalu - R$ 50,00 por canal
 
