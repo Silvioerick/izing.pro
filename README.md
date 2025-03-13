@@ -51,17 +51,34 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Conexões                                        |  1️⃣  |    ♾️     |     ♾️     |     ♾️     |
 | Chatbots                                        |  1️⃣  |    ♾️     |     ♾️     |     ♾️     |
 | Filas                                           |  1️⃣  |    ♾️     |     ♾️     |     ♾️     |
-| WaVoIP                                          |  ✅  |    ✅     |     ✅     |     ✅     |
-| NotificameHub                                   |  ✅  |    ✅     |     ✅     |     ✅     |
+| Canal WaVoIP                                    |  ✅  |    ✅     |     ✅     |     ✅     |
+| Canais NotificameHub                            |  ✅  |    ✅     |     ✅     |     ✅     |
 | Conexão WABA                                    |  ❌  |    ❌     |     ✅     |     ✅     |
+| Notas de Ticket                                 |  ❌  |    ❌     |     ✅     |     ✅     |
+| Notas de Contatos                               |  ❌  |    ❌     |     ✅     |     ✅     |
+| Painel Usuário NotificameHUB (2 Canais Inclusos)|  ❌  |    ✅     |     ✅     |     ❌     |
+| Painel Revenda NotificameHub (2 Canais Inclusos)|  ❌  |    ❌     |     ❌     |     ✅     |
+| Hospedagem PerfexCRM c/ Módulo Ger. DigitalSac  |  ❌  |    ✅     |     ✅     |     ✅     |
 | Campanhas SMS                                   |  ❌  |    ❌     |     ❌     |     ✅     |
 | Botões e Listas (Baileys)                       |  ✅  |    ✅     |     ✅     |     ✅     |
+| Canal Telegram                                  |  ✅  |    ✅     |     ✅     |     ✅     |
+| Gerenciamento de Grupos Whatsapp                |  ✅  |    ✅     |     ✅     |     ✅     |
 | Inteligência Artificial (Prompt IA para Chatbot)|  ❌  |    ❌     |     ❌     |     ✅     |
 | Typebot                                         |  ❌  |    ❌     |     ✅     |     ✅     |
 | Chat Interno                                    |  ❌  |    ❌     |     ✅     |     ✅     |
 | Campanhas WABA                                  |  ❌  |    ❌     |     ❌     |     ✅     |
-| ConnectionHub                                   |  ❌  |    ❌     |     ❌     |     ✅     |
+| Canais ConnectionHub                            |  ❌  |    ❌     |     ❌     |     ✅     |
+| Custo Servidor Adicional / ano                  |  ❌  |  R$ 90,00  |  R$ 145,00 |   R$ 255,00   |
+| Custo Painel PerfexCRM avulso / mês             |  ❌  |  R$ 100,00  |  R$ 100,00 |   R$ 100,00  |
+| Canal Adicional NotificameHub / mês             |  ❌  |  R$ 45,00  |  R$ 45,00 |   R$ 30,00   |
+| Canal Adicional ConnectionHub / mês             |  ❌  |  ❌  |  ❌ |   R$ 30,00  |
+| Canal Adicional WaVoip / mês                   |  ❌  |  R$ 55,00  |  R$ 55,00 |   45,00   |
+| Painel Revenda NotificameHub* c/ 10 canais Inclusos / mês  |  ❌  |  R$ 500,00  |  R$ 500,00 |   500,00   |
+| *Canal Adicional NotificameHub Revenda / mês    |  ❌  |  R$ 30,00  |  R$ 30,00 |   30,00   |
 
+TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB
+- Whatsapp Oficial tem uma taxa de ativação de R$ 150,00
+- Mercado livre, Youtube, OLX, Numero Virtual, Linkedin, Magalu - R$ 50,00 por canal
 
 ## Valores e Condições de Pagamento
 
