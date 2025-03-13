@@ -68,55 +68,45 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 ### Plano Basic
 - Valor Anual: R$ 2.988,00
 - Parcelado em até 12x de R$ 249,00
-- À vista com 40% de desconto: R$ 1.792,80
+- À vista com 20% de desconto: R$ 2.390,40
 
 ### Plano Plus
 - Valor Anual: R$ 4.788,00
 - Parcelado em até 12x de R$ 399,00
-- À vista com 40% de desconto: R$ 2.872,80
+- À vista com 40% de desconto: R$ 3.830,40
 
 ### Plano Premium
 - Valor Anual: R$ 8.388,00
 - Parcelado em até 12x de R$ 699,00
-- À vista com 40% de desconto: R$ 5.032,80
+- À vista com 40% de desconto: R$ 6.710,40
 
 > **Observação**: Plano Free disponível gratuitamente para testes.
 
 ## Modelos de Cobrança por Tenant (Plano Premium)
 
 🔹 **Opção 1: Com Valor Mensal Fixo**
-- Assinatura fixa: R$ 199/mês
-- Custo por tenant: R$ 35/mês
-- Mínimo de 3 tenants, o cliente pode ter quantos quiser
+- Assinatura fixa Perfex CRM + Painel Usuário NotificameHUB (2 canais) : R$ 150/mês
+- Custo por tenant: R$ 45/mês
+- Mínimo de 2 tenants, o cliente pode ter quantos quiser
 
 #### Exemplos de Cobrança Mensal:
 
 | Número de Tenants | Cálculo                  | Total Mensal |
 |:------------------|:------------------------:|:------------:|
-| 3 tenants         | R$ 199 + (3 × R$ 35)     | R$ 304       |
-| 5 tenants         | R$ 199 + (5 × R$ 35)     | R$ 374       |
-| 10 tenants        | R$ 199 + (10 × R$ 35)    | R$ 549       |
-| 50 tenants        | R$ 199 + (50 × R$ 35)    | R$ 1.949     |
+| 3 tenants         | R$ 150 + (2 × R$ 45)     | R$ 240       |
+| 5 tenants         | R$ 150 + (5 × R$ 45)     | R$ 375       |
+| 10 tenants        | R$ 150 + (10 × R$ 45)    | R$ 600       |
+| 50 tenants        | R$ 150 + (50 × R$ 45)    | R$ 2.400     |
+
+**Opcionais**
+Servidor Adicional / mês - R$ 75,00
+Canal Adicional NotificameHub / mês - R$ 55,00
+Canal Adicional ConnectionHub / mês - R$ 55,00
+Canal Adicional WaVoip / mês - R$ 55,00
+Painel Revenda NotificameHub c/ 10 canais Inclusos / mês - R$ 500,00
 
 
 🔹 **Vantagem**: Custo previsível, ideal para quem quer escalar aos poucos.
-
-🔹 **Opção 2: Apenas Cobrança por Tenant**
-- Sem valor fixo mensal
-- Custo por tenant: R$ 65/mês
-- **Mínimo de 5 tenants para contratação** (R$ 325/mês mínimo)
-
-#### Exemplos de Cobrança Mensal:
-
-| Número de Tenants    | Cálculo          | Total Mensal |
-|:--------------------:|:----------------:|:------------:|
-| 5 tenants (mínimo)   | 5 × R$ 65        | R$ 325       |
-| 10 tenants           | 10 × R$ 65       | R$ 650       |
-| 20 tenants           | 20 × R$ 65       | R$ 1.300     |
-| 50 tenants           | 50 × R$ 65       | R$ 3.250     |
-
-
-🔹 **Vantagem**: Sem taxa fixa, mas exige um mínimo para viabilidade financeira.
 
 ## Planos Whitelabel com Servidores no Brasil
 
