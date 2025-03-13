@@ -90,12 +90,12 @@ TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB
 ### Plano Plus
 - Valor Anual: R$ 4.788,00
 - Parcelado em até 12x de R$ 399,00
-- À vista com 40% de desconto: R$ 3.830,40
+- À vista com 20% de desconto: R$ 3.830,40
 
 ### Plano Premium
 - Valor Anual: R$ 8.388,00
 - Parcelado em até 12x de R$ 699,00
-- À vista com 40% de desconto: R$ 6.710,40
+- À vista com 20% de desconto: R$ 6.710,40
 
 > **Observação**: Plano Free disponível gratuitamente para testes.
 
