@@ -69,7 +69,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Chat Interno                                    |  ❌  |    ❌     |     ✅     |     ✅     |
 | Campanhas WABA                                  |  ❌  |    ❌     |     ❌     |     ✅     |
 | Canais ConnectionHub                            |  ❌  |    ❌     |     ❌     |     ✅     |
-| Custo Servidor Adicional / ano                  |  ❌  |  R$ 90,00  |  R$ 145,00 |   R$ 255,00   |
+| Custo Servidor Adicional / ano                  |  ❌  |  R$ 60,98  |  R$ 95,76 |   R$ 171,18   |
 | Custo Painel PerfexCRM avulso / mês             |  ❌  |  R$ 100,00  |  R$ 100,00 |   R$ 100,00  |
 | Canal Adicional NotificameHub / mês             |  ❌  |  R$ 45,00  |  R$ 45,00 |   R$ 30,00   |
 | Canal Adicional ConnectionHub / mês             |  ❌  |  ❌  |  ❌ |   R$ 30,00  |
