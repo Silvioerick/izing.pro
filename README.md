@@ -44,7 +44,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 
 | Funcionalidade                                  | Free |   Basic    |    Plus    |   Premium   |
 |:------------------------------------------------|:----:|:----------:|:----------:|:-----------:|
-| Instalação em Servidores                        |  1️⃣  |   5️⃣0️⃣    |   5️⃣0️⃣    |    5️⃣0️⃣    |
+| Instalação em Servidores                        |  1️⃣  |   5️⃣0️⃣*    |   5️⃣0️⃣*    |    5️⃣0️⃣*    |
 | Tenants                                         |  1️⃣  |    ♾️     |     ♾️     |     ♾️     |
 | Usuários                                        |  1️⃣  |    ♾️     |     ♾️     |     ♾️     |
 | Acesso à API                                    |  ❌  |    ❌     |     ✅     |     ✅     |
@@ -61,6 +61,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Hospedagem PerfexCRM c/ Módulo Ger. DigitalSac  |  ❌  |    ✅     |     ✅     |     ✅     |
 | Campanhas SMS                                   |  ❌  |    ❌     |     ❌     |     ✅     |
 | Botões e Listas (Baileys)                       |  ✅  |    ✅     |     ✅     |     ✅     |
+| Kanban                                          | ❌  |  ❌   |  ✅  |  ✅ |
 | Canal Telegram                                  |  ✅  |    ✅     |     ✅     |     ✅     |
 | Gerenciamento de Grupos Whatsapp                |  ✅  |    ✅     |     ✅     |     ✅     |
 | Inteligência Artificial (Prompt IA para Chatbot)|  ❌  |    ❌     |     ❌     |     ✅     |
@@ -76,23 +77,25 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Painel Revenda NotificameHub* c/ 10 canais Inclusos / mês  |  ❌  |  R$ 500,00  |  R$ 500,00 |   500,00   |
 | *Canal Adicional NotificameHub Revenda / mês    |  ❌  |  R$ 30,00  |  R$ 30,00 |   30,00   |
 
+*Contratação de 1 a 50 servidores consulte em nosso site: https://grupo.digitalsac.io
+
 **TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB**
 - Whatsapp Oficial tem uma taxa de ativação de R$ 150,00
 - Mercado livre, Youtube, OLX, Numero Virtual, Linkedin, Magalu - R$ 50,00 por canal
 
 ## Valores e Condições de Pagamento
 
-### Plano Basic
+### Plano Basic 50 Servidores ( Consulte para 1 Servidor )
 - Valor Anual: R$ 2.988,00
 - Parcelado em até 12x de R$ 249,00
 - À vista com 20% de desconto: R$ 2.390,40
 
-### Plano Plus
+### Plano Plus 50 Servidores ( Consulte para 1 Servidor )
 - Valor Anual: R$ 4.788,00
 - Parcelado em até 12x de R$ 399,00
 - À vista com 20% de desconto: R$ 3.830,40
 
-### Plano Premium
+### Plano Premium 50 Servidores ( Consulte para 1 Servidor )
 - Valor Anual: R$ 8.388,00
 - Parcelado em até 12x de R$ 699,00
 - À vista com 20% de desconto: R$ 6.710,40
@@ -102,18 +105,18 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 ## Modelos de Cobrança por Tenant (Plano Premium)
 
 🔹 **Opção 1: Com Valor Mensal Fixo**
-- Assinatura fixa Perfex CRM + Painel Usuário NotificameHUB (2 canais) : R$ 150/mês
+- Assinatura fixa Perfex CRM + Painel Usuário NotificameHUB: R$ 99/mês
 - Custo por tenant: R$ 45/mês
-- Mínimo de 2 tenants, o cliente pode ter quantos quiser
+- Mínimo de 1 tenants, o cliente pode ter quantos quiser
 
 #### Exemplos de Cobrança Mensal:
 
 | Número de Tenants | Cálculo                  | Total Mensal |
 |:------------------|:------------------------:|:------------:|
-| 3 tenants         | R$ 150 + (2 × R$ 45)     | R$ 240       |
-| 5 tenants         | R$ 150 + (5 × R$ 45)     | R$ 375       |
-| 10 tenants        | R$ 150 + (10 × R$ 45)    | R$ 600       |
-| 50 tenants        | R$ 150 + (50 × R$ 45)    | R$ 2.400     |
+| 3 tenants         | R$ 99 + (2 × R$ 45)     | R$ 234       |
+| 5 tenants         | R$ 99 + (5 × R$ 45)     | R$ 324       |
+| 10 tenants        | R$ 99 + (10 × R$ 45)    | R$ 549       |
+| 50 tenants        | R$ 99 + (50 × R$ 45)    | R$ 2.349     |
 
 **Opcionais**
 Servidor Adicional / mês - R$ 75,00
