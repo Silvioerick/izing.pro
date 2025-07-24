@@ -73,7 +73,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 | Canais ConnectionHub                            |  ❌  |    ❌     |     ❌     |     ✅     |
 
 
-*Contratação é feita a partir de nossas revenda que pode ser consultado em: [https://grupo.digitalsac.io](https://digitalsac.io/?page_id=216)
+*Contratação é feita a partir de nossas revenda que pode ser consultado em: [https://digitalsac.io](https://digitalsac.io/?page_id=216)
 
 **TAXAS DE ATIVAÇÃO COBRADOS PELO NOTIFICAMEHUB**
 - Whatsapp Oficial tem uma taxa de ativação de R$ 150,00
