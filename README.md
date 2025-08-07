@@ -110,6 +110,7 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 - **Domínio adicional:** R$ 999,00/ano (desde que no mesmo CPF/CNPJ do titular)  
 - **ConnectionHub Ilimitado por domínio:** R$ 1.000,00/ano  
 
+> Domínio adicional ou novo plano vinculado ao mesmo CPF/CNPJ será cobrado proporcionalmente ao tempo restante da assinatura vigente.
 > 📍 Contratação por meio de parceiros oficiais: [digitalsac.io](https://digitalsac.io/?page_id=216)
 
 ## 🧾 Taxas de Ativação (NotificameHub)
