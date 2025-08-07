@@ -163,4 +163,4 @@ O **DigitalSac Izing Pro** é um software **proprietário** e licenciado comerci
 - [Módulo N8N Digitalsac Izing Pro](https://www.npmjs.com/package/n8n-nodes-digitalsac)
 - [Sistema Próprios de IA Transcrição/Tradução/LLM/Texto Voz](https://speechtotext.digitalsac.io)
 > 💡 Servidores de IA DigitalSac
-> O acesso aos nossos servidores de IA é exclusivo para clientes pagos. Cada cliente recebe 1 milhão de tokens por mês para utilizar livremente com os recursos de inteligência artificial disponíveis na plataforma.
+> O acesso aos nossos servidores de IA é exclusivo para clientes pagos. Cada cliente recebe 1 milhão de tokens por mês para utilizar livremente com os recursos de inteligência artificial disponíveis na plataforma.(Exceto a reescrita no chat)
