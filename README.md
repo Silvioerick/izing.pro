@@ -44,56 +44,59 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 
 ## 🧾 Planos Disponíveis
 
-| Funcionalidade                                  |   Premium Gratis  |  Premium |  Premium Dominio |
-|:------------------------------------------------|:----:|:----------:|:----------:|:-----------:|
-| Instalação Servidors ou sub-dominios                        |  1️⃣  |   1️⃣   |   ♾️    |   
-| Tenants                                         |  ♾️  |    ♾️     |     ♾️     |
-| Usuários                                        |  ♾️  |    ♾️     |     ♾️     |
-| Acesso à API                                    |  ✅  |    ✅     |     ✅     |
-| Conexões                                        |  ♾️  |    ♾️     |     ♾️     |
-| Chatbots                                        |  ♾️ |    ♾️     |     ♾️     | 
-| Filas                                           |  ♾️  |    ♾️     |     ♾️     |
-| Canal WaVoIP (Adquirido Separadamente)          |  ✅  |    ✅     |     ✅     |
-| Canais NotificameHub                            |  ✅  |    ✅     |     ✅     |
-| Conexão WABA                                    |  ✅  |   ✅     |     ✅     | 
-| Webchat Nativo                                  |  ✅  |    ✅     |     ✅     |
-| Notas de Ticket                                 | ✅  |    ✅     |     ✅     | 
-| Notas de Contatos                               |  ✅  |    ✅     |     ✅     |
-| Painel Usuário NotificameHUB                   |  ✅  |    ❌      |     ❌      
-| Painel Revenda NotificameHub                   |  ❌  |    ✅     |     ✅    |
-| Painel Revenda ConnectionHUB                   |  ✅ |  ✅  |  ✅  |
-| Hospedagem PerfexCRM c/ Módulo Ger. DigitalSac  |  ❌  |    ✅     |     ✅    
-| Campanhas SMS                                   |  ✅   |   ✅      |     ✅      | 
-| Botões e Listas (Baileys)                       |  ✅  |    ✅     |     ✅     | 
-| Sistema de Questionaria Fechamento              | ✅  |  ✅ |  ✅ |
-| Sistema de Agendamento Clinicas, Salão, etc      | ✅  | ✅  |  ✅  |
-| Ordenação de Tickets avançado                    | ✅  |  ✅  |  ✅  |
-| Tradução no Chat em tempo real                  |  ✅  |  ✅  |  ✅  |
-| NPS - Satisfação do Cliente                     | ✅  | ✅  |  ✅  |
-| Impostação dados Whaticket/izing e outros       | ✅  |  ✅  |  ✅  |
-| Login com PassKey para Maior Segurança          | ✅  |  ✅  |  ✅  |
-| Relatorios                                      |  ✅  |  ✅  |  ✅  |
-| Agendamento mensagem aniversariantes             | ✅  |  ✅  |  ✅  |
-| Kanban                                          |  ✅  |   ✅   |  ✅  | 
-| Canal Telegram                                  |  ✅  |    ✅     |     ✅     | 
-| Gerenciamento de Grupos Whatsapp                |  ✅  |    ✅     |     ✅     | 
-| IA Chatbot Entende e responde voz e texto       |  ✅  |   ✅     |    ✅     |  
-| Controle de horário (Fila/Usuario/Whatsapp e Global) |  ✅  |  ✅  |  ✅  |
-| Controle de Feriados (Fila/Usuario/Whatsapp e Global)                          |  ✅  |  ✅  |  ✅  |
-| Coonfiguração de Fechamento Inteligente       |  ✅  |  ✅  |  ✅  |
-| Mensagem Rapida por Fila/Usuario/Global        |  ✅  |  ✅  |  ✅  |
-| Personalização de Protocolo                     | ✅  |  ✅  |  ✅  |
-| Sistema de atendimento com SLA e relatório      | ✅  |  ✅  |  ✅  |
-| Reescrita com mais de 10 tipos usando IA       | ✅  |  ✅  |  ✅  |
-| Transcrição de Audio                           | ✅  |  ✅  |  ✅  |
-| Cadastro e aprovação de Templates Waba         |  ✅  |  ✅  |  ✅  |
-| Typebot                                         |  ✅  |    ✅    |     ✅     | 
-| Chat Interno                                    |  ✅  |    ✅     |     ✅     | 
-| Campanhas WABA                                  | ✅  |    ✅     |     ✅     | 
-| Canais ConnectionHub (Adquirido Separadamente) |  ✅  |    ✅     |     ✅    | 
-| Canais NotificameHUB (Adquirido Separadamente) |  ✅  |    ✅     |     ✅    | 
-| Propagandas                                     |  ✅  |  ❌  |  ❌  |
-| Envio de Propaganda em cada ticket aberto       |  ✅  |  ❌  |  ❌  |
+## 🧾 Planos Disponíveis
+
+| Funcionalidade                                       | Premium Grátis | Premium | Premium Domínio |
+|------------------------------------------------------|:--------------:|:-------:|:---------------:|
+| Instalação (Servidor ou Subdomínio)                 | 1️⃣            | 1️⃣     | ♾️               |
+| Tenants (multiempresa)                              | ♾️            | ♾️     | ♾️               |
+| Usuários simultâneos                                | ♾️            | ♾️     | ♾️               |
+| Acesso à API                                        | ✅             | ✅      | ✅                |
+| Conexões ilimitadas                                 | ♾️            | ♾️     | ♾️               |
+| Chatbots                                             | ♾️            | ♾️     | ♾️               |
+| Filas                                                | ♾️            | ♾️     | ♾️               |
+| Canal WaVoIP (adquirido separadamente)              | ✅             | ✅      | ✅                |
+| Canais NotificameHub                                | ✅             | ✅      | ✅                |
+| Conexão WABA                                        | ✅             | ✅      | ✅                |
+| Webchat Nativo                                      | ✅             | ✅      | ✅                |
+| Notas de Ticket                                     | ✅             | ✅      | ✅                |
+| Notas de Contatos                                   | ✅             | ✅      | ✅                |
+| Painel Usuário NotificameHub                        | ✅             | ❌      | ❌                |
+| Painel Revenda NotificameHub                        | ❌             | ✅      | ✅                |
+| Painel Revenda ConnectionHub                        | ✅             | ✅      | ✅                |
+| Hospedagem PerfexCRM + Módulo DigitalSac            | ❌             | ✅      | ✅                |
+| Campanhas SMS                                       | ✅             | ✅      | ✅                |
+| Botões e Listas (Baileys)                           | ✅             | ✅      | ✅                |
+| Sistema de Questionário no Fechamento               | ✅             | ✅      | ✅                |
+| Agendamento (clínicas, salão etc.)                  | ✅             | ✅      | ✅                |
+| Ordenação avançada de tickets                       | ✅             | ✅      | ✅                |
+| Tradução em tempo real no chat                      | ✅             | ✅      | ✅                |
+| Pesquisa de Satisfação (NPS)                        | ✅             | ✅      | ✅                |
+| Importação de dados (Whaticket/Izing/Outros)        | ✅             | ✅      | ✅                |
+| Login com PassKey                                   | ✅             | ✅      | ✅                |
+| Relatórios                                           | ✅             | ✅      | ✅                |
+| Agendamento de mensagens de aniversário             | ✅             | ✅      | ✅                |
+| Kanban                                               | ✅             | ✅      | ✅                |
+| Canal Telegram                                      | ✅             | ✅      | ✅                |
+| Gerenciamento de Grupos WhatsApp                    | ✅             | ✅      | ✅                |
+| IA (resposta por voz e texto)                       | ✅             | ✅      | ✅                |
+| Controle de horário (Fila/Usuário/Global)           | ✅             | ✅      | ✅                |
+| Controle de feriados                                | ✅             | ✅      | ✅                |
+| Fechamento inteligente                              | ✅             | ✅      | ✅                |
+| Mensagem rápida por Fila/Usuário/Global             | ✅             | ✅      | ✅                |
+| Personalização de Protocolo                         | ✅             | ✅      | ✅                |
+| Atendimento com SLA e relatórios                    | ✅             | ✅      | ✅                |
+| Reescrita inteligente com IA (10+ tipos)            | ✅             | ✅      | ✅                |
+| Transcrição de áudio                                | ✅             | ✅      | ✅                |
+| Cadastro e aprovação de Templates WABA              | ✅             | ✅      | ✅                |
+| Typebot                                              | ✅             | ✅      | ✅                |
+| Chat interno entre atendentes                       | ✅             | ✅      | ✅                |
+| Campanhas WABA                                      | ✅             | ✅      | ✅                |
+| Canais ConnectionHub (adquirido separadamente)      | ✅             | ✅      | ✅                |
+| Canais NotificameHUB (adquirido separadamente)      | ✅             | ✅      | ✅                |
+| Propagandas                                          | ✅             | ❌      | ❌                |
+| Envio de propaganda em cada ticket aberto           | ✅             | ❌      | ❌                |
+
 
 
 > 📌 **Plano Premium Grátis** limitado a **1 por CPF/CNPJ**.  
