@@ -104,11 +104,12 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 > Também não contempla módulos adicionais.  
 > **Token do plano gratuito deve ser solicitado a um parceiro autorizado.**
 
-## 💸 Adicionais
+## 💸 Preços e Adicionais
 
-- **Plano Premium Domínios:** R$ 2.350,00/ano  
-- **Domínio adicional:** R$ 999,00/ano (desde que no mesmo CPF/CNPJ do titular)  
-- **ConnectionHub Ilimitado por domínio:** R$ 1.000,00/ano  
+- **Plano Premium:** R$ 1199/ano
+- **Plano Premium Domínios:** R$ 2350/ano  
+- **Domínio adicional:** R$ 999/ano (desde que no mesmo CPF/CNPJ do titular Exclusivo para o Plano Premium Domínios)  
+- **ConnectionHub Ilimitado por domínio:** R$ 1000/ano  
 
 > Domínio adicional ou novo plano vinculado ao mesmo CPF/CNPJ será cobrado proporcionalmente ao tempo restante da assinatura vigente.
 > 📍 Contratação por meio de parceiros oficiais: [digitalsac.io](https://digitalsac.io/?page_id=216)
