@@ -128,8 +128,6 @@ Não vendemos códigos, sistema é whitelabel ou Self Hosted com planos mensal o
 > ⚠️ **Atenção:** canais adquiridos fora da rede DigitalSac ou de parceiros credenciados **não são compatíveis** com o sistema.
 
 
-*Canais adquiridos fora da rede DigitalSac e de parceiro credenciados não funcionam no sistema
-
 ## 🧾 Condições de Pagamento
 
 - Aceitamos **cartão de crédito**, boleto ou transferência  
